@@ -176,7 +176,7 @@ function findLargest(arr) {
     return null;
   }
   const invalidInputs = [Infinity, -Infinity, NaN];
-  let largestNumber = Infinity;
+  let largestNumber = -Infinity;
   for (let i = 0; i < arr.length; i++) {
     if (typeof arr[i] !== "number" || invalidInputs.includes(arr[i])) {
       return false;
