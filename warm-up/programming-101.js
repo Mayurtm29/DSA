@@ -1,8 +1,8 @@
-console.log("Hello, World!");
-console.log(7);
+// console.log("Hello, World!");
+// console.log(7);
 
 const arr = [1, 2, 3, 4, 5];
-console.log(arr[10]);
+// console.log(arr[10]);
 
 //check eligibility to vote
 function eligibilityToVote(age) {
@@ -17,9 +17,9 @@ function eligibilityToVote(age) {
   return eligibility;
 }
 
-console.log(eligibilityToVote(18));
-console.log(eligibilityToVote(10));
-console.log(eligibilityToVote(-9));
+// console.log(eligibilityToVote(18));
+// console.log(eligibilityToVote(10));
+// console.log(eligibilityToVote(-9));
 
 // check number is Even or odd
 
@@ -35,9 +35,9 @@ function isEvenOdd(number) {
   }
 }
 
-console.log(isEvenOdd(18));
-console.log(isEvenOdd(10));
-console.log(isEvenOdd(-9));
+// console.log(isEvenOdd(18));
+// console.log(isEvenOdd(10));
+// console.log(isEvenOdd(-9));
 
 for (let i = 0; i > 0; i++) {
   console.log(i);
@@ -188,4 +188,9 @@ function findLargest(arr) {
   return largestNumber;
 }
 
-console.log(findLargest([-1.5, -0.1, 0, 2.2]));
+// console.log(findLargest([-1.5, -0.1, 0, 2.2]));
+
+
+
+
+
